@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "api-tests-for-shop"
+version = "0.1.0"
+description = "hw for api2"
+authors = ["Daria Chaenkova <dash.kustowa2010@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.2.2"
+allure-pytest = "^2.13.5"
+selene = "2.0.0rc9"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
