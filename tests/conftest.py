@@ -4,7 +4,7 @@ from selenium import webdriver
 from helpers import attach
 
 
-@pytest.fixture(scope="function", autouse=True)
+@pytest.fixture(scope="function")
 def browser_settings():
     browser.config.window_height = 1080
     browser.config.window_width = 1920
